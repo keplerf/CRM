@@ -593,7 +593,7 @@ activity-save-btn a:after {
   border: 2px solid #008000;
   width: 96%;
   padding: 2%;
-  height: inherit;
+  height: auto;
 }
 
 /*# sourceMappingURL=style2016.css.map */
