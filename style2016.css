@@ -46,13 +46,15 @@ html {
     min-height: inherit;
     height: inherit;
     overflow: inherit;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
+    /*  
+     display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+
+      -webkit-flex-flow: row wrap;
+      justify-content: space-around; */
   }
 }
 .page-header {
@@ -89,13 +91,16 @@ html {
 }
 @media only screen and (max-width: 600px) {
   #contacts-div {
-    width: 20%;
     min-height: inherit;
     height: inherit;
-    -webkit-box-ordinal-group: 1;
-    -moz-box-ordinal-group: 1;
-    box-ordinal-group: 1;
-    -webkit-flex-grow: 1;
+    /* width: 20%;
+       //  
+          padding-bottom: 50px;
+         -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        box-ordinal-group: 1;
+         
+          -webkit-flex-grow: 1; */
   }
 }
 #center-div {
@@ -105,13 +110,16 @@ html {
 }
 @media only screen and (max-width: 600px) {
   #center-div {
-    width: 67%;
+    width: 63%;
     min-height: inherit;
     height: inherit;
-    -webkit-box-ordinal-group: 4;
-    -moz-box-ordinal-group: 4;
-    box-ordinal-group: 4;
-    -webkit-flex-grow: 6;
+    /* width: 67%;
+        // min-height: inherit;
+       //  height: inherit;
+        -webkit-box-ordinal-group: 4;
+        -moz-box-ordinal-group: 4;
+        box-ordinal-group: 4;
+          -webkit-flex-grow: 6; */
   }
 }
 .right-align,
@@ -139,13 +147,15 @@ html {
 }
 @media only screen and (max-width: 600px) {
   #activity-div {
-    width: 100%;
     min-height: inherit;
     height: inherit;
-    -webkit-box-ordinal-group: 3;
-    -moz-box-ordinal-group: 3;
-    box-ordinal-group: 3;
-    -webkit-flex-grow: 3;
+    /*  width: 100%;
+           min-height: inherit;
+           height: inherit;
+           -webkit-box-ordinal-group: 3;
+            -moz-box-ordinal-group: 3;
+            box-ordinal-group: 3;
+            -webkit-flex-grow: 3; */
   }
 }
 .menu-top img {
@@ -254,6 +264,7 @@ select {
   #task-list-div {
     min-height: inherit;
     height: inherit;
+    margin-right: 2px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -555,7 +566,7 @@ activity-save-btn a:after {
 .list-entry,
 .data-header-color,
 .data-row {
-  padding: 4px;
+  padding: 6px 5px 6px 4px;
   display: block;
 }
 .data-header {
