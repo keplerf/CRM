@@ -13,6 +13,7 @@ body, html{
     
     background: #b6d2b2;
     color: @grey;
+    font-family: Arial,Helvetica,sans-serif !important;
 }
 
  #main, #page-layout-div{
@@ -503,7 +504,7 @@ input, textarea, select{
 }
 
 
-.task-add, .right-align, .contact-edit , .contact-delete{
+#center-div .task-add, .right-align, .contact-edit , .contact-delete{
     background: none !important;
     filter: alpha(opacity=50);
     opacity: 0.5;
@@ -595,6 +596,7 @@ input, textarea, select{
         
         li{
             padding: 2px;
+            overflow: hidden;
         }
         a{
             background: #f0f0f0;
@@ -602,11 +604,11 @@ input, textarea, select{
             .transition (background .5s);
             .border-radius(5px);
             margin: 2px;
+            width: 84%;
             &:hover{
                 background: darken(@greyLight, 10%);
                 filter: alpha(opacity=100);
                 opacity: 1;
-                
             }
         }
     }
