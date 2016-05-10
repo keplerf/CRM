@@ -141,7 +141,7 @@ body{
          
     }
 }
-
+#dynamic-table-div .task-add,
 .right-align,
 .contact-edit,
 .contact-delete {
@@ -205,6 +205,7 @@ input, textarea, select{
 
 .form-buttons-div{
     width: 100%;
+    height: inherit;
 }
 
 #forms-container-div{
@@ -274,7 +275,11 @@ input, textarea, select{
     display: block;
 }
 
-#contacts-list-div, #task-list-div, #task-list-div{
+#contacts-list-div, 
+#task-list-div, 
+#task-list-div,
+#todo-list-div,
+#events-today-div{
     
     .color-code{
         padding: 6px 0px 6px 0;
@@ -298,7 +303,11 @@ input, textarea, select{
     
 }
 
- #task-list-div, #dynamic-table-div, #todo-list-div, #events-today-div{
+#task-list-div, 
+#dynamic-table-div, 
+#todo-list-div,
+#events-today-div,
+{
      
        .color-code{
          margin-left: -4px; 
@@ -550,9 +559,7 @@ input, textarea, select{
         background:@greyDark;
     }
     
-    &:after{
-        content: "Save";
-    }
+   
 }
 
 .footer-text{
